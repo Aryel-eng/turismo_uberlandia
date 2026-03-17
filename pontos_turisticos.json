@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Parque do Sabiá",
+        "categoria": "Parque",
+        "descricao": "Um dos maiores parques urbanos do Brasil, ideal para lazer e atividades ao ar livre.",
+        "endereco": "Av. Anselmo Alves dos Santos, s/n - Centro",
+        "coordenadas": [-18.918, -48.277],
+        "imagem": "parque_sabia.jpg"
+    },
+    {
+        "nome": "Museu Municipal",
+        "categoria": "Museu",
+        "descricao": "Museu dedicado à história e cultura de Uberlândia, com exposições permanentes e temporárias.",
+        "endereco": "Praça Clarimundo Carneiro, 1 - Centro",
+        "coordenadas": [-18.920, -48.280],
+        "imagem": "museu_municipal.jpg"
+    },
+    {
+        "nome": "Catedral Metropolitana",
+        "categoria": "Religioso",
+        "descricao": "Imponente catedral gótica, marco arquitetônico da cidade.",
+        "endereco": "Praça Dom Eduardo, s/n - Centro",
+        "coordenadas": [-18.915, -48.275],
+        "imagem": "catedral.jpg"
+    },
+    {
+        "nome": "Shopping Uberlândia",
+        "categoria": "Comércio",
+        "descricao": "Centro comercial com lojas, cinemas e opções de entretenimento.",
+        "endereco": "Av. João Naves de Ávila, 1331 - Tibery",
+        "coordenadas": [-18.925, -48.285],
+        "imagem": "shopping.jpg"
+    },
+    {
+        "nome": "Lago de Uberlândia",
+        "categoria": "Lazer",
+        "descricao": "Área de lazer com lago, ideal para passeios e esportes aquáticos.",
+        "endereco": "Av. Rondon Pacheco, s/n - Centro",
+        "coordenadas": [-18.910, -48.270],
+        "imagem": "lago.jpg"
+    }
+]
