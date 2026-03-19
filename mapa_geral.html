@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cadb737139011adddf9d57ed661133dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cadb737139011adddf9d57ed661133dd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cadb737139011adddf9d57ed661133dd = L.map(
+                "map_cadb737139011adddf9d57ed661133dd",
+                {
+                    center: [-18.918, -48.277],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed4b91832528a34e359dfe1c91b17497 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ed4b91832528a34e359dfe1c91b17497.addTo(map_cadb737139011adddf9d57ed661133dd);
+        
+    
+            var marker_b829bccb7ca3774910d6b9128fbda4eb = L.marker(
+                [-18.918, -48.277],
+                {
+}
+            ).addTo(map_cadb737139011adddf9d57ed661133dd);
+        
+    
+        var popup_6cc91c71fcb8f26c41a2c04016b5ef35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae40182f9a8e69acbaff06026fe270be = $(`<div id="html_ae40182f9a8e69acbaff06026fe270be" style="width: 100.0%; height: 100.0%;"><b>Parque do Sabiá</b><br>Parque</div>`)[0];
+                popup_6cc91c71fcb8f26c41a2c04016b5ef35.setContent(html_ae40182f9a8e69acbaff06026fe270be);
+            
+        
+
+        marker_b829bccb7ca3774910d6b9128fbda4eb.bindPopup(popup_6cc91c71fcb8f26c41a2c04016b5ef35)
+        ;
+
+        
+    
+    
+            marker_b829bccb7ca3774910d6b9128fbda4eb.bindTooltip(
+                `<div>
+                     Parque do Sabiá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd260f5db2db4b655d6a5e10a315a253 = L.marker(
+                [-18.92, -48.28],
+                {
+}
+            ).addTo(map_cadb737139011adddf9d57ed661133dd);
+        
+    
+        var popup_f79b43dc7534b71f46da12dd21571e72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abde99bb67137732bd3c5abc206c93a6 = $(`<div id="html_abde99bb67137732bd3c5abc206c93a6" style="width: 100.0%; height: 100.0%;"><b>Museu Municipal</b><br>Museu</div>`)[0];
+                popup_f79b43dc7534b71f46da12dd21571e72.setContent(html_abde99bb67137732bd3c5abc206c93a6);
+            
+        
+
+        marker_cd260f5db2db4b655d6a5e10a315a253.bindPopup(popup_f79b43dc7534b71f46da12dd21571e72)
+        ;
+
+        
+    
+    
+            marker_cd260f5db2db4b655d6a5e10a315a253.bindTooltip(
+                `<div>
+                     Museu Municipal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4002b257d0cf3674b563da9b61afe99f = L.marker(
+                [-18.915, -48.275],
+                {
+}
+            ).addTo(map_cadb737139011adddf9d57ed661133dd);
+        
+    
+        var popup_bc944bceea23e6dc5eb75706555e5d6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eb73c3539afd7fbe67becb224e8fb7f = $(`<div id="html_6eb73c3539afd7fbe67becb224e8fb7f" style="width: 100.0%; height: 100.0%;"><b>Catedral Metropolitana</b><br>Religioso</div>`)[0];
+                popup_bc944bceea23e6dc5eb75706555e5d6b.setContent(html_6eb73c3539afd7fbe67becb224e8fb7f);
+            
+        
+
+        marker_4002b257d0cf3674b563da9b61afe99f.bindPopup(popup_bc944bceea23e6dc5eb75706555e5d6b)
+        ;
+
+        
+    
+    
+            marker_4002b257d0cf3674b563da9b61afe99f.bindTooltip(
+                `<div>
+                     Catedral Metropolitana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f8a85d3bcc58e1fe8f29daacf1102383 = L.marker(
+                [-18.925, -48.285],
+                {
+}
+            ).addTo(map_cadb737139011adddf9d57ed661133dd);
+        
+    
+        var popup_5ee5692ff0cc749c34e4b78574dfbe87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e96cf2f4d794c0574094041b199e15fd = $(`<div id="html_e96cf2f4d794c0574094041b199e15fd" style="width: 100.0%; height: 100.0%;"><b>Shopping Uberlândia</b><br>Comércio</div>`)[0];
+                popup_5ee5692ff0cc749c34e4b78574dfbe87.setContent(html_e96cf2f4d794c0574094041b199e15fd);
+            
+        
+
+        marker_f8a85d3bcc58e1fe8f29daacf1102383.bindPopup(popup_5ee5692ff0cc749c34e4b78574dfbe87)
+        ;
+
+        
+    
+    
+            marker_f8a85d3bcc58e1fe8f29daacf1102383.bindTooltip(
+                `<div>
+                     Shopping Uberlândia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_11a7bf9db51c51201982085879c5f5a0 = L.marker(
+                [-18.91, -48.27],
+                {
+}
+            ).addTo(map_cadb737139011adddf9d57ed661133dd);
+        
+    
+        var popup_f5a84d0f0f9c549dde8aef54ea0d698b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e31cb5b954dfbd41a364e4d702e5114 = $(`<div id="html_5e31cb5b954dfbd41a364e4d702e5114" style="width: 100.0%; height: 100.0%;"><b>Lago de Uberlândia</b><br>Lazer</div>`)[0];
+                popup_f5a84d0f0f9c549dde8aef54ea0d698b.setContent(html_5e31cb5b954dfbd41a364e4d702e5114);
+            
+        
+
+        marker_11a7bf9db51c51201982085879c5f5a0.bindPopup(popup_f5a84d0f0f9c549dde8aef54ea0d698b)
+        ;
+
+        
+    
+    
+            marker_11a7bf9db51c51201982085879c5f5a0.bindTooltip(
+                `<div>
+                     Lago de Uberlândia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

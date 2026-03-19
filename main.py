@@ -1,16 +1,15 @@
 import customtkinter as ctk
-from PIL import Image
+from PIL import Image, ImageTk
 import folium
 import json
 import os
 import webbrowser
 from tkinter import Tk, Label, PhotoImage
+import sys
 
 # Configurações de aparência
 ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
-
-#colocar imagem no layout 
 
 class TurismoUberlandiaApp(ctk.CTk):
     def __init__(self):
@@ -27,7 +26,7 @@ class TurismoUberlandiaApp(ctk.CTk):
         self.grid_rowconfigure(0, weight=1)
 
         # Sidebar
-        self.sidebar_frame = ctk.CTkFrame(self, width=200, corner_radius=0)
+        self.sidebar_frame = ctk.CTkFrame(self, width=200, corner_radius=0, fg_color="#143c8c")
         self.sidebar_frame.grid(row=0, column=0, sticky="nsew")
         self.sidebar_frame.grid_rowconfigure(4, weight=1)
 
